@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>carousel</title>
+    <title>Carousel</title>
     <link rel="stylesheet" href="carousel.css">
 </head>
 <body>
-    <div>
-        <section>
-            <div class = "slider"> 
-                <div class="images"> 
-                    <img src="/src/img/carousel1.png"/>
-                    <img src="/src/img/carousel2.png"/>
-                    <img src="/src/img/carousel3.png"/>
-                </div> 
-
-                <button class="btn" onclick="prev()"> Prev </button>
-                <button class="btn" onclick="next()"> Next </button>
-            </div>
-            
-        </section>
-    </div>
-    <script src="js/carousel.js"></script>
-    
-</body> 
+    <div class="slider">
+        <div class="slide">
+          
+              <img src="carousel1.png" alt="">
+          
+        </div>
+        <div class="slide">
+          
+              <img src="carousel2.png" alt="">
+         
+        </div>
+        <div class="slide">
+              <img src="carousel3.png" alt="">
+        </div>
+        
+        
+        <button class="btn btn--left">&larr;</button>
+        <button class="btn btn--right">&rarr;</button>
+      </div>
+      <script src="carousel.js"></script>
+</body>
 </html>
